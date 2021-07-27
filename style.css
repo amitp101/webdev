@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+  
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+ 
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+
+}
+.navbar ul li{
+    list-style:  none;
+}
+.navbar ul li a{
+    font-family: 'Lobster', cursive;
+    font-size: 3vh;
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid rgb(230, 112, 17);;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+}
+.color-text{
+    color: rgb(230, 112, 17);
+}
+.header{
+    
+    height: 100vh;
+}
+img{
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+}
+.header-div{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.3rem;
+    padding-left: 1.3rem;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.btn{
+    background: rgb(230, 112, 17);
+    border-radius: 10rem;
+    border: none;
+    padding: 1rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.main-services{
+    display: flex;
+    flex: 1;
+}
+.container{
+    margin: 10px auto;
+    width: 84rem;
+}
+.services-h1{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.main-p{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:rgb(230, 112, 17);
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+.services-h3{
+    text-align: center;
+    padding-bottom: 1.4rem;
+}
+.cards-p{
+    font-size: 1rem;
+    margin: 10px auto;
+    padding-bottom: 1.6rem;
+}
+.cards{
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 2px solid rgb(230, 112, 17);
+    text-align: center;
+    padding-top: 1.6rem;
+    margin-left: 1rem;
+}
+.cards:hover{
+    border: 3px solid rgb(194, 91, 6);
+}
+.cards i{
+    color:rgb(230, 112, 17);
+    padding: 2rem;
+}
+#about{
+   display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 80vh;
+    margin-top: 3rem;
+}
+.about-div{
+    margin: 2rem;
+}
+.img{
+    width: 50%;
+    border-radius: 2rem;
+}
+.about-main-p{
+    font-family: 'Noto Sans JP', sans-serif;
+   font-weight: bolder;
+   color: rgb(230, 112, 17);
+   font-size: 2rem;
+}
+.about-h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.about-p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#work{
+    display: flex;
+    margin: 3rem 0 0 2rem;
+    height: 55vh;
+
+}
+.work-div{
+    margin: 2rem;
+}
+.img{
+    width: 50%;
+    border-radius: 2rem;
+}
+.work-h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.work-p{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 2rem;
+}
+.cards-work{
+    color: rgb(230, 112, 17);
+}
+.team{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    flex: 1;
+
+
+}
+input{
+    height: 3rem;
+    width: 50rem;
+    border: 3px solid rgb(230, 112, 17);
+    margin-bottom: 1.3rem;
+    border-radius: 5rem ;
+}
+.f-h1{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+::placeholder{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+}
+.footer-h1{
+    font-family: 'Lobster', cursive;
+}
+.f-text{
+    color:rgb(230, 112, 17);
+  
+}
